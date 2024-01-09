@@ -22,6 +22,7 @@ if __name__ == '__main__':
 
     # Predict the value of the digit on the test subset
     predicted = clf.predict(X_test)
+    print('added code here')
 
     print(
         f"Classification report for classifier {clf}:\n"
